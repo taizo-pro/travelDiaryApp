@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View, Platform, Image, StatusBar} from 'react-native';
+import {StyleSheet, Text, View, Platform, Image, StatusBar,} from 'react-native';
 import {
   createAppContainer,
   createBottomTabNavigator,
