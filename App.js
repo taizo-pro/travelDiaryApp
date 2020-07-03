@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View, Platform, Image} from 'react-native';
+import {StyleSheet, Text, View, Platform, Image, StatusBar} from 'react-native';
 import {
   createAppContainer,
   createBottomTabNavigator,
@@ -157,6 +157,7 @@ export default class App extends React.Component {
     // `NavigatorTab`を描画
     return (
       <View style={styles.container}>
+        <StatusBar barStyle='light-content' />
         <NavigatorTab />
       </View>
     );
